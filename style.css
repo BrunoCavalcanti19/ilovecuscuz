@@ -1,0 +1,220 @@
+/*Estilização da Barra de Navegação*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	height:100px;
+	background-color: #f8f9fa;
+
+}
+/*Logo da empresa*/
+.navbar img{
+	float: left;
+}
+/*Páginas*/
+.navegacao{
+	width: 60%;
+	float: left;
+	margin-left: 17%;
+	list-style-type: none;
+}
+
+.navegacao li{
+	margin-top: 2%;
+	float: left;
+	margin-left:13%;
+	font-size: 1.5em;
+	color: black;
+}
+/*Div do banner*/
+#banner{
+	float: left;
+	width: 100%;
+	background-image: url(./img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 1366px 568px; 
+	height:568px;
+}
+/*Divs de Informações*/
+#texto1{
+	float: left;
+	height: 300px;
+	width: 100%;
+	background-color: #fbfffe;
+}
+.frase{
+	
+	text-align: center;
+	color: #4c4f4d;
+}
+.apresentacao{
+	float: left;
+	text-align: center;
+	margin: 3%;
+	font-size: 1.5em;
+	color: #4c4f4d;
+}
+/*Div dos cards*/
+  #cardsHome{
+  	width: 100%;
+  	height: 400px;
+  	background-color: #fbfffe;
+
+  }
+
+  .card1{
+  	 float: left;
+  	 width: 30%;
+  	 box-sizing: border-box;
+  	 margin-left: 4%; 
+  	 border: 1px solid #7c7c7d;
+  	 box-shadow: 1px 5px 8px #4a4a4b; 
+  	 transition: box-shadow 0.5s;
+  }
+  .card2{
+  	 float: left;
+  	 width: 30%;
+  	 box-sizing: border-box;
+  	 margin-left: 2%;
+  	 border: 1px solid #7c7c7d; 
+  	 box-shadow: 1px 5px 8px #4a4a4b; 
+  	 transition: box-shadow 0.5s;
+  }
+  .card3{
+  	 float: left;
+  	 width: 30%;
+  	 box-sizing: border-box;
+  	 margin-left: 2%;
+  	 border: 1px solid #7c7c7d; 
+  	 box-shadow: 1px 5px 8px #4a4a4b; 
+  	 transition: box-shadow 0.5s;
+  }
+   
+  .card1:hover{
+   box-shadow: 5px 10px 12px #4a4a4b;
+  }
+  .card2:hover{
+   box-shadow: 5px 10px 12px #4a4a4b;
+  }
+  .card3:hover{
+   box-shadow: 5px 10px 12px #4a4a4b;
+  }      
+     	
+  /*textos dos cards*/
+
+  .titulo1{
+  	float: left;
+  	margin-left: 25%;
+  	color: #4c4f4d;
+  }
+  .textinho{
+  	float: left;
+  	text-align: center;
+  	margin-right: 1%;
+ 	font-size: 1em;
+  }
+/*Div Contato*/
+
+#contatos{
+	float: left;
+	width: 100%;
+	background-image:url(./img/serv.jpg);
+	height: 350px;
+    background-size: 1366px 350px;
+    margin-top: 1%; 
+
+}
+/*Textos e botão*/
+.info{
+	background-color: rgba(30,33,54,0.9);
+	height: 100%;
+	
+}
+.titulo2{
+	float: left;
+	margin-top: 5%;
+	font-size: 2em;
+	color: #fbfffe;
+	width: 100%;
+	text-align: center;
+}
+
+.titulo3{
+	font-size: 2em;
+	float: left;
+	color: #ffff4d;
+	margin-top: 3%;
+	width: 100%;
+	text-align: center;
+}
+
+.telefone{
+	font-size: 2em;
+	float: left;
+	margin-top: 3%;
+	width: 100%;
+	text-align: center;
+	color:#00cccc;
+}
+
+
+.contactUS{
+	margin-top: 2%;
+	background-color:#00cccc;
+	font-size: 1.5em;
+	border-radius: 5px;
+	margin-left: 45%;
+	padding: 10px;
+	color: #fbfffe;
+	border-style: none;
+	transition: font-size 0.5s;
+}
+
+.contactUS:hover{
+	background-color:#009999;
+	font-size: 1.6em;
+
+}
+
+/*Div do footer*/
+
+#footer{
+	float: left;
+	width: 100%;
+	height:350px;
+	background-color: #fbfffe;
+}
+.titulof{
+	width: 100%;
+	text-align: left;
+	margin-left: 7%;
+	margin-top: 10%;
+	color: #4c4f4d;
+}
+.texto4{
+	float: left;
+	width: 50%;
+
+}
+
+.texto5{
+	width: 100%;
+	font-size: 1.3em;
+	margin-top: 5%;
+	text-align: left;
+	color: #4c4f4d;
+	margin-left: 7%;
+}
+
+.youtoba{
+	float: left;
+	width: 50%;
+	border-style: none;
+}
+
+.video{
+	float: left;
+	margin-left: 20%;
+	margin-top: 5%;
+	height:300px;
+	width:450px; 
+}
